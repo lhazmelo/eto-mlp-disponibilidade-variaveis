@@ -30,7 +30,7 @@ python -m venv .venv
 1. Abra `mlp_FAO-56.ipynb` em um editor compatível com notebooks e selecione o kernel de `.venv`.
 2. Confira com `%pwd` se o diretório do kernel é a raiz `eto-mlp-fao56/`. Os caminhos da MLP são relativos a essa raiz.
 3. Confirme a presença do dataset e da matriz de Pearson. Para regenerar o dataset, siga primeiro as instruções da [pasta FAO-56](FAO-56/README.md); aquele notebook exige o diretório de trabalho `FAO-56/`.
-4. Ajuste as opções de saída: `EXECUTAR_GRAFICOS = True` gera figuras; `EXPORTAR_EXCEL = False` evita a cópia adicional em Excel. Esses são os valores atuais.
+4. Ajuste as opções de saída: `EXECUTAR_GRAFICOS = True` gera figuras; `EXPORTAR_EXCEL = False` evita a cópia adicional em Excel.
 5. Reinicie o kernel, confirme o diretório de trabalho e execute as células em ordem.
 6. Ao concluir, confira os arquivos e o campo `status` de `configuracao_execucao.json`. O valor `concluida` só é gravado após a verificação das tabelas exportadas.
 
