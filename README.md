@@ -4,8 +4,6 @@ O notebook [mlp_FAO-56.ipynb](mlp_FAO-56.ipynb) compara redes neurais MLP para a
 
 **As informações sobre os dados estão na pasta [FAO-56](FAO-56/README.md)**: estação, período, variáveis, unidades, preparação, cálculo do alvo e limitações da base. Os arquivos-fonte ficam em `dados/`, cujo [README](dados/README.md) complementa a documentação.
 
-Os resultados definitivos da MLP ainda serão gerados. Este README descreve o comportamento previsto no código; não apresenta métricas finais de desempenho.
-
 ## Arquivos utilizados
 
 | Caminho | Função |
