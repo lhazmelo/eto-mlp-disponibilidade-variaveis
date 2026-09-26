@@ -2,6 +2,7 @@
 
 A base atual é da estação **SEROPEDICA-ECOLOGIA AGRICOLA (A601)**. Os metadados foram fornecidos pelo responsável pelo estudo e conferidos no cabeçalho de `INMET_processado.csv`. Os arquivos-fonte são preservados; a preparação ocorre em memória e gera produtos separados.
 
+
 ## Estação e cobertura
 
 | Campo | Valor |
@@ -95,4 +96,10 @@ O SHA-256 do CSV é registrado em `configuracao_execucao.json`, exportado com o 
 **Forma de obtenção:** solicitação realizada pelo autor no portal oficial do INMET, com entrega dos arquivos por e-mail.  
 **Data de recebimento:** 22/09/2026.
 
-O objetivo é aproximar ETo calculada e comparar disponibilidade de entradas na A601. Não há medição independente de evapotranspiração nem demonstração de transferência para outras estações.
+##Licença e dados de terceiros
+
+O código desenvolvido neste repositório é disponibilizado sob a MIT License, conforme descrito no arquivo LICENSE.
+
+A licença MIT aplica-se exclusivamente ao código e à documentação produzidos no âmbito deste projeto e não concede direitos adicionais sobre dados ou materiais de terceiros.
+
+Os dados meteorológicos utilizados no estudo são provenientes do Instituto Nacional de Meteorologia (INMET) e permanecem sujeitos às condições de uso, atribuição e redistribuição estabelecidas pela instituição de origem.
