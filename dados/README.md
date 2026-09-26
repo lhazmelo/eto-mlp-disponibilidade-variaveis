@@ -1,6 +1,6 @@
 # Dados meteorológicos — estação INMET A601
 
-A base atual é da estação **SEROPEDICA-ECOLOGIA AGRICOLA (A601)**. Os metadados foram fornecidos pelo responsável pelo estudo e conferidos no cabeçalho de `INMET_processado.csv`. Os arquivos-fonte são preservados; a preparação ocorre em memória e gera produtos separados.
+A base atual é da estação **SEROPEDICA-ECOLOGIA AGRICOLA (A601)**. Os metadados foram obtidos dos arquivos encaminhados pelo INMET e conferidos no cabeçalho de `INMET_processado.csv`. Os arquivos-fonte são preservados; a preparação ocorre em memória e gera produtos separados.
 
 
 ## Estação e cobertura
@@ -18,8 +18,7 @@ A base atual é da estação **SEROPEDICA-ECOLOGIA AGRICOLA (A601)**. Os metadad
 | Data final do período fornecido | 2026-08-31 |
 | Periodicidade do produto meteorológico | Diária |
 
-A situação descreve o metadado fornecido, não uma consulta operacional em tempo real. A radiação global possui um arquivo horário separado. O processamento mantém as datas originais sem deslocamento de fuso. O sistema geodésico e a definição exata da janela diária permanecem a documentar na fonte.
-
+A situação descreve o metadado fornecido, não uma consulta operacional em tempo real. A radiação global possui um arquivo horário separado. O processamento mantém as datas originais sem deslocamento de fuso. 
 ## Arquivos
 
 | Arquivo | Conteúdo |
@@ -97,7 +96,7 @@ O SHA-256 do CSV é registrado em `configuracao_execucao.json`, exportado com o 
 **Forma de obtenção:** solicitação realizada pelo autor no portal oficial do INMET, com entrega dos arquivos por e-mail.  
 **Data de recebimento:** 22/09/2026.
 
-##Licença e dados de terceiros
+## Licença e dados de terceiros
 
 O código desenvolvido neste repositório é disponibilizado sob a MIT License, conforme descrito no arquivo LICENSE.
 
