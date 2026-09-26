@@ -74,7 +74,7 @@ Cada execução recebe um identificador exclusivo. As tabelas e o modelo ficam e
 | `configuracao_execucao.json` | Configuração, versões, dispositivo, hashes do dataset e notebook, duração, seleção final e estado das exportações. |
 
 
-Por padrão são **seis CSVs, um modelo `.pt` e um JSON**. Com `EXPORTAR_EXCEL = True`, também é criado `resultados.xlsx`, uma cópia de consulta com as abas `Cenarios`, `Pearson_Pares` e `Previsoes_Teste`. O histórico extenso fica apenas no CSV. As tabelas exportadas são relidas e comparadas com as versões em memória.
+Por padrão são **sete CSVs, um modelo `.pt` e um JSON**. Com `EXPORTAR_EXCEL = True`, também é criado `resultados.xlsx`, uma cópia de consulta com as abas `Cenarios`, `Pearson_Pares` e `Previsoes_Teste`. O histórico extenso fica apenas no CSV. As tabelas exportadas são relidas e comparadas com as versões em memória.
 
 Com os gráficos habilitados, `resultados/imagens/<execução>/` recebe PNGs e PDFs das comparações de RMSE/R² e dos diagramas de dispersão dos 63 cenários. As exportações de execuções anteriores são preservadas.
 
