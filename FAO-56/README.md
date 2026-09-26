@@ -87,7 +87,7 @@ Ambos são exportados com separador **vírgula**, decimal ponto e sem índice. A
 
 O [mlp_FAO-56.ipynb](../mlp_FAO-56.ipynb) já lê `FAO-56/dados_FAO-56/dataset_A601_mlp.csv` a partir da raiz do projeto. Renomeia as colunas em memória e preserva a data fora das entradas, incluindo-a no CSV de previsões. O dataset tem 8.329 dias completos, de **2001-01-18 a 2026-08-30**, com lacunas; o período do calendário completo continua sendo 2001-01-01 a 2026-08-31.
 
-A MLP utiliza normalização global das sete colunas numéricas, divisão aleatória fixa 70%/15%/15%, **63 cenários e uma única seed (42)**, limite de 10.000 épocas e paciência 400. O modelo final reutiliza os pesos do cenário escolhido pelo menor RMSE de validação, sem retreinamento. O [README da MLP](../README.md) descreve o protocolo, a matriz de Pearson exigida e as exportações: seis CSVs, modelo `.pt`, configuração JSON e um único Excel opcional. Os resultados definitivos da MLP ainda serão gerados; os checkpoints abaixo se referem à preparação dos dados.
+A MLP utiliza normalização global das sete colunas numéricas, divisão aleatória fixa 70%/15%/15%, **63 cenários e uma única seed (42)**, limite de 10.000 épocas e paciência 400. O modelo final reutiliza os pesos do cenário escolhido pelo menor RMSE de validação, sem retreinamento. O [README da MLP](../README.md) descreve o protocolo, a matriz de Pearson exigida e as exportações: seis CSVs, modelo `.pt`, configuração JSON e um único Excel opcional. Os checkpoints abaixo se referem à preparação dos dados.
 
 ## Checkpoints e limites da validação
 
