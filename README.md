@@ -1,4 +1,4 @@
-# MLP FAO-56 — aproximação da evapotranspiração de referência
+# MLP FAO-56 — aproximação da evapotranspiração de referência com combinações de variáveis.
 
 O notebook [mlp_FAO-56.ipynb](mlp_FAO-56.ipynb) compara redes neurais MLP para aproximar a ETo calculada pelo método FAO-56 Penman–Monteith na estação INMET A601. O experimento avalia todas as 63 combinações não vazias de seis entradas, com uma única seed (42).
 
