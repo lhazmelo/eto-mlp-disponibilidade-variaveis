@@ -1,0 +1,45 @@
+{
+  "metodo": "pearson",
+  "escopo": "descritivo; população completa anterior ao split da MLP",
+  "politica_ausencias": "casos completos nas sete variáveis; sem imputação",
+  "dataset": "FAO-56\\dados_FAO-56\\dataset_A601_mlp.csv",
+  "dataset_sha256": "260925bedb2b2332c29060685ac3c842f698bf9cf18ca57107f5a620bf395c47",
+  "colunas": [
+    "rn_mj_m2_dia",
+    "u2_ms",
+    "ur_media_pct",
+    "tmax_c",
+    "tmin_c",
+    "tmedia_inmet_c",
+    "eto_pmt"
+  ],
+  "populacao": {
+    "linhas_entrada": 8329,
+    "linhas_utilizadas": 8329,
+    "linhas_removidas": 0,
+    "ausencias_por_coluna": {
+      "rn_mj_m2_dia": 0,
+      "u2_ms": 0,
+      "ur_media_pct": 0,
+      "tmax_c": 0,
+      "tmin_c": 0,
+      "tmedia_inmet_c": 0,
+      "eto_pmt": 0
+    },
+    "data_inicial_utilizada": "2001-01-18",
+    "data_final_utilizada": "2026-08-30"
+  },
+  "versoes": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.2"
+  },
+  "exportar_tabela_eto": false,
+  "arquivos_gerados": [
+    "matriz_correlacao_pearson.csv",
+    "matriz_correlacao_pearson.png"
+  ],
+  "fim_utc": "2026-09-25T21:35:13.416523+00:00",
+  "status": "concluida"
+}
