@@ -9,6 +9,7 @@ A base atual é da estação **SEROPEDICA-ECOLOGIA AGRICOLA (A601)**. Os metadad
 | --- | --- |
 | Nome | SEROPEDICA-ECOLOGIA AGRICOLA |
 | Código da estação | A601 |
+| CRS  | 4674 (SIRGAS 2000)  |
 | Latitude | -22.75777777° |
 | Longitude | -43.68472221° |
 | Altitude | 35 m |
