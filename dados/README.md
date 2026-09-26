@@ -86,9 +86,13 @@ O SHA-256 do CSV é registrado em `configuracao_execucao.json`, exportado com o 
 - **31 dias da MLP têm média INMET inferior à temperatura mínima**, ainda mantidos e sujeitos a investigação.
 - A formulação principal produz **820 dias com Rnl negativo** na base completa. Esses valores são preservados; os checkpoints não constituem validação física independente.
 - A disponibilidade varia entre anos. Não há imputação nem exclusão adicional por cenário.
-- A altura de 10 m do anemômetro foi confirmada pelo responsável pelo estudo; o vento da MLP já está convertido para 2 m.
-- Documentar URL ou identificador do produto INMET, data de obtenção, responsável pela preparação e referência de citação.
-- Confirmar janela temporal e fuso do produto diário, sistema de referência das coordenadas e procedimentos originais de agregação/controle de qualidade do provedor.
-- Registrar licença, atribuição e condições de redistribuição dos arquivos originais e derivados. A autorização relatada para a antiga base de exemplo não define os termos desta base.
+- A altura do anemômetro é de 10m; o vento da MLP já está convertido para 2 m.
+
+## Proveniência dos dados
+
+**Fonte dos dados:** Instituto Nacional de Meteorologia (INMET).  
+**Estação:** A601 — SEROPÉDICA–ECOLOGIA AGRÍCOLA.  
+**Forma de obtenção:** solicitação realizada pelo autor no portal oficial do INMET, com entrega dos arquivos por e-mail.  
+**Data de recebimento:** 22/09/2026.
 
 O objetivo é aproximar ETo calculada e comparar disponibilidade de entradas na A601. Não há medição independente de evapotranspiração nem demonstração de transferência para outras estações.
