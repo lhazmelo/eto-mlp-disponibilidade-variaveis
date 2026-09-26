@@ -59,7 +59,7 @@ O teste não determina cenário, época nem hiperparâmetros. RMSE é apresentad
 
 ## Saídas
 
-Cada execução recebe um identificador exclusivo. As tabelas e o modelo ficam em `resultados_completos/dataframe/<execução>/`:
+Cada execução recebe um identificador exclusivo. As tabelas e o modelo ficam em `resultados/dataframe/<execução>/`:
 
 | Arquivo | Conteúdo |
 | --- | --- |
@@ -69,12 +69,14 @@ Cada execução recebe um identificador exclusivo. As tabelas e o modelo ficam e
 | `previsoes_modelo_final_teste.csv` | Datas, ETo de referência calculada, previsões e resíduos do modelo escolhido. |
 | `normalizacao.csv` | Média e desvio amostral utilizados por variável. |
 | `split.csv` | Índice original, data, partição e ordem dentro da partição. |
+| `tempos_treinamento.csv` | tempo de treinamento de cada combinação. |
 | `modelo_final_evapotranspiracao.pt` | Pesos, arquitetura, entradas, normalização e métricas do modelo final. |
 | `configuracao_execucao.json` | Configuração, versões, dispositivo, hashes do dataset e notebook, duração, seleção final e estado das exportações. |
 
+
 Por padrão são **seis CSVs, um modelo `.pt` e um JSON**. Com `EXPORTAR_EXCEL = True`, também é criado `resultados.xlsx`, uma cópia de consulta com as abas `Cenarios`, `Pearson_Pares` e `Previsoes_Teste`. O histórico extenso fica apenas no CSV. As tabelas exportadas são relidas e comparadas com as versões em memória.
 
-Com os gráficos habilitados, `resultados_completos/imagens/<execução>/` recebe PNGs e PDFs das comparações de RMSE/R² e dos diagramas de dispersão dos 63 cenários. As exportações de execuções anteriores são preservadas.
+Com os gráficos habilitados, `resultados/imagens/<execução>/` recebe PNGs e PDFs das comparações de RMSE/R² e dos diagramas de dispersão dos 63 cenários. As exportações de execuções anteriores são preservadas.
 
 ## Interpretação
 
