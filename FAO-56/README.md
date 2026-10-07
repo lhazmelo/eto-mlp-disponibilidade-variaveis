@@ -37,7 +37,7 @@ Os dois arquivos de entrada possuem dez linhas anteriores ao cabeçalho e usam `
 | Longitude no metadado | -43.68472221° |
 | Altitude | 35 m |
 | Periodicidade do produto meteorológico | Diária; arquivo de radiação separado em frequência horária |
-| Altura do anemômetro | 10 m, confirmada pelo responsável pelo estudo |
+| Altura do anemômetro | 10 m|
 | Escala do cálculo | Diária |
 | Fluxo de calor no solo | G = 0 |
 | Política de ausências | Sem imputação meteorológica |
